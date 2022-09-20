@@ -23,7 +23,15 @@
             "Network": ""
         },
         "ConfigOnly": false,
-        "Containers": {},
+        "Containers": {
+            "35af4377161b91364bb3009733fb6a5a6ea8b54a274a1e2675642f39a5747b8b": {
+                "Name": "admiring_shirley",
+                "EndpointID": "7c7f450761a3dfa079ab410bac1d4958f75e686a01f7166e104c6f9543119e61",
+                "MacAddress": "02:42:ac:12:00:02",
+                "IPv4Address": "172.18.0.2/16",
+                "IPv6Address": ""
+            }
+        },
         "Options": {},
         "Labels": {}
     }

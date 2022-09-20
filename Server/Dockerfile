@@ -10,6 +10,7 @@ RUN apt  -y install wget
 RUN wget https://download.redis.io/redis-stable.tar.gz
 RUN tar -xzvf redis-stable.tar.gz
 RUN cd redis-stable ; ls ; make ; make install
-
+RUN cd /home ; rm redis-stable.tar.gz ; rm -r redis-stable
+docker ps
 EXPOSE 6379
 CMD ["redis-server", "--protected-mode", "no"]
